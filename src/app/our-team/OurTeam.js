@@ -48,7 +48,7 @@ const OurTeam = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-5 gap-8 ml-9'>
         {
          data.map((index)=>{
-            return <div key={index?.id} className=' border-2 p-2 gap-5  w-[300px] ml-[40px] md:ml-[130px]'>
+            return <div key={index?.id} className=' border-2 p-2 gap-5  w-[300px] ml-[80px] md:ml-[130px]'>
                <div className='w-[430px]'>
                <Image src={index?.img} alt='fdf' height={100} width={10000} className='h-[300px] w-[280px]'/>
                </div>
@@ -56,10 +56,10 @@ const OurTeam = () => {
                <h5 className='text-xl font-bold text-center'>{index?.title}</h5>
                <p className=' text-center'>${index?.price}</p>
                </div>
-               <div className='flex gap-6 text-center justify-items-center'>
-                <FaFacebookF className='rounded-lg bg-red-400 h-7 w-7 text-center justify-items-center'/>
-                <FaTwitter  className='rounded-lg bg-red-400 h-7 w-7 text-center justify-items-center'/>
-                <CiInstagram  className='rounded-lg bg-red-400 h-7 w-7 text-center justify-items-center'/>
+               <div className='flex gap-6 text-center ml-16 justify-items-center'>
+                <FaFacebookF className='rounded-lg bg-gray-200 h-7 w-7 text-center justify-items-center'/>
+                <FaTwitter  className='rounded-lg bg-gray-200 h-7 w-7 text-center justify-items-center'/>
+                <CiInstagram  className='rounded-lg bg-gray-200 h-7 w-7 text-center justify-items-center'/>
                </div>
             </div>
          })

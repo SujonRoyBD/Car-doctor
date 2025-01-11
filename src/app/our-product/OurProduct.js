@@ -85,7 +85,7 @@ const OurProduct = () => {
         {
           data?.map((info, index)=>{
             return <div key={index} className='border rounded-lg shadow-lg p-3'>
-              <div className='bg-gray-200 w-[250px] h-[200px] mx-auto'>
+              <div className='bg-gray-200 w-[250px] h-[200px] mx-auto justify-items-center py-7'>
                 <Image src={info?.img} alt='image' width={150} height={200}/>
               </div>
               <div className='mt-2 text-center text-black'>
