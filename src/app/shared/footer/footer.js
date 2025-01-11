@@ -14,10 +14,10 @@ const Footer = () => {
                     <h3>Car Doctor</h3>
                     <p className='mt-4'>Edwin Diaz is a software and web technologies engineer, a life coach  trainer who is also a serial </p>
                     <div className='flex gap-4'>
-                    < IoLogoGoogle className='bg-orange-600  border-2 rounded-full h-[40px] w-[40px] text-white'/>
-                    < CiTwitter className='bg-orange-600  border-2 rounded-full h-[40px] w-[40px] text-white'/>
-                    <CiInstagram className='bg-orange-600  border-2 rounded-full h-[40px] w-[40px] text-white'/>
-                    < CiLinkedin className='bg-orange-600 rounded-full border-2 h-[40px] w-[40px] text-white'/>
+                    < IoLogoGoogle className='bg-orange-600 rounded-full h-[40px] w-[40px] text-white'/>
+                    < CiTwitter className='bg-orange-600 rounded-full h-[40px] w-[40px] text-white'/>
+                    <CiInstagram className='bg-orange-600 rounded-full h-[40px] w-[40px] text-white'/>
+                    < CiLinkedin className='bg-orange-600 rounded-full h-[40px] w-[40px] text-white'/>
                     </div>
                 </div>
                 <div>
