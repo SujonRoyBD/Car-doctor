@@ -57,7 +57,7 @@ const Simple = () => {
                             <p>{index.data}</p>
                             <Link href={`/simpleStep/${index.id}`}>
                 <button className='bg-green-500 rounded-md px-4'>
-              fffv
+              fffjjj
                 </button>
               </Link>
                         </div>
