@@ -47,7 +47,7 @@ const Core = () => {
         {
             data.map((index)=>{
                 return <div key={index?.id} className='group border rounded-lg bg-white hover:bg-orange-500 hover:cursor-pointer p-3'>
-                    <Image src={index?.img} alt='chose' height={53} width={42} className='w-[[60px] h-[60px] mx-auto '/>
+                    <Image src={index?.img} alt='chose' height={53} width={42} className='w-[60px] h-[60px] mx-auto '/>
                     <p className='group-hover:text-white text-center'>{index?.title}</p>
                 </div>
             })

@@ -5,7 +5,7 @@ const Main = () => {
     return (
         <div>
            <Banner/>
-        ddd
+    
         </div>
     );
 };

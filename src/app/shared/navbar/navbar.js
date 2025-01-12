@@ -2,6 +2,8 @@ import Image from 'next/image';
 import React from 'react';
 import { BsBagCheck } from "react-icons/bs";
 import { CiSearch } from "react-icons/ci";
+import Link from 'next/link';
+import About from '../../about-us/page';
 
 const Navbar = () => {
   return (
@@ -14,10 +16,10 @@ const Navbar = () => {
         <div>
           <ul className='flex gap-9 mt-5'> 
             <li>
-              Home
+              <Link href="/">Home</Link>
             </li>
             <li>
-            About
+            <Link href="/our-services">About</Link>
             </li>
             <li>
               Services
