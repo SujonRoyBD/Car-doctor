@@ -49,7 +49,7 @@ const page = ({ params }) => {
                </div>
                <div className='bg-slate-200 px-7 h-[400px] md:h-[500px] ml-0 md:ml-[150px] w-full md:w-3/4'>
                 <h2 className='py-[20px]'>Services</h2>
-                <div className='flex gap-[75px] bg-red-600 text-white px-4 py-2'>Full Car Repair <FaArrowRight className='mt-2'/></div>
+                <Link href="/authon/addService"><div className='flex gap-[75px] bg-red-600 text-white px-4 py-2'>Full Car Repair <FaArrowRight className='mt-2'/></div></Link>
                 <div className='flex gap-[80px] bg-white text-black px-4 py-2 mt-3'>Engine Repair <FaArrowRight className='mt-2 text-red-500'/></div>
                 <div className='flex gap-11 bg-white text-black px-4 py-2 mt-3'>Automatic Services <FaArrowRight className='mt-2 text-red-500'/></div>
                 <div className='flex gap-12 bg-white text-black px-4 py-2 mt-3'>Engine Oil Change <FaArrowRight className='mt-2 text-red-500'/></div>

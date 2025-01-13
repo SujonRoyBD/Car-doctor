@@ -14,7 +14,7 @@ const OurServices = () => {
   ];
 
   return (
-    <div className='px-[100px]'>
+    <div className='px-4 md:px-[100px]'>
       <div>
         <p className='text-orange-600 text-center mt-[40px]'>Service</p>
         <h2 className='text-3xl font-bold text-center'>Our Service Area</h2>
@@ -25,9 +25,9 @@ const OurServices = () => {
         </p>
       </div>
 
-      <div className='mt-12 gap-9 grid grid-cols-1 md:grid-cols-3'>
+      <div className='mt-12  gap-9 grid grid-cols-1 md:grid-cols-3'>
         {data.map((item) => (
-          <div key={item.id} className='gap-9 py-[10px] px-[20px] border-2 rounded-md'>
+          <div key={item.id} className='gap-9 py-[10px] px-1 md:px-[20px] border-2 rounded-md'>
             <Image src={item.img} alt={item.title} height={208} width={314} />
             <p className='mt-3'>{item.title}</p>
             <div className='flex justify-between items-center'>

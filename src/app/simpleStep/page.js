@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-
 const Simple = () => {
+   
     const data = [
         {
             id: 1,
@@ -34,7 +34,7 @@ const Simple = () => {
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in s   ome form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isnt anything embarrassing hidden in the middle of text</p>
                 </div>
                 <div className=' ml-0 md:ml-[180px]'><h2 className='text-2xl font-bold'>Price $250.00</h2>
-                    <button className='bg-red-500 text-center p-2 rounded-lg w-[370px] '>Process Checkout</button>
+                    <Link href="/authon/cheackout"><button className='bg-red-500 text-center p-2 rounded-lg w-[370px] '>Process Checkout</button></Link>
                 </div>
             </div>
             <div className='w-[300px] md:w-3/6 grid grid-cols-1 md:grid-cols-3 justify-between items-center ml-9 md:ml-[110px]  mt-6  gap-6'>
@@ -55,11 +55,7 @@ const Simple = () => {
                             <p className='font-bold'>{index.title}</p>
                             <p>{index.desc}</p>
                             <p>{index.data}</p>
-                            <Link href={`/simpleStep/${index.id}`}>
-                <button className='bg-green-500 rounded-md px-4'>
-              click
-                </button>
-              </Link>
+                         
                         </div>
                     })
                 }

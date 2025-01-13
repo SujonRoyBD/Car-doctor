@@ -4,7 +4,7 @@ import React from 'react';
 const About = () => {
     return (
         <div className='pt-[70px] '>
-            <div className='grid grid-cols-1 md:grid-cols-2 px-[100px]  gap-16'>
+            <div className='grid grid-cols-1 md:grid-cols-2 px-12 md:px-[100px]  gap-16'>
                 <div>
                     <Image src="/aseats/about-us1.png" alt='bb' height={473} width={460} />
                 </div>
@@ -16,7 +16,7 @@ const About = () => {
                     <button className='bg-orange-600 px-2 py-1 text-white'>Get More Info</button>
                 </div>
             </div>
-            <div className='sm: ml-[90px] mt-0 md:ml-[300px] md:-mt-[200px]'>
+            <div className='w-full md:w-[670px] ml-0 mt-0 md:ml-[300px] md:-mt-[200px]'>
                 <Image src="/aseats/about-us2.png" alt='about' height={300} width={300} />
             </div>
 
