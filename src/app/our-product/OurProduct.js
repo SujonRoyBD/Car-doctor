@@ -2,7 +2,9 @@ import Image from 'next/image';
 import React from 'react';
 import { FaStar } from "react-icons/fa";
 
+
 const OurProduct = () => {
+ 
   const data = [
     {
       id: 1,
@@ -99,6 +101,7 @@ const OurProduct = () => {
                 <h5 className='text-xl font-bold'>{info?.title}</h5>
                 <p className='text-xl font-bold '>${info?.price}</p>
               </div>
+             
             </div>
           })
         }
