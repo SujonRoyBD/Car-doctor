@@ -40,7 +40,7 @@ const OurTeam = () => {
         <p className='text-orange-600 text-center mt-[40px]'>Popular Products</p>
         <h2 className='text-3xl font-bold text-center'>Browse Our Products</h2>
         <p className='text-center'>
-          the majority have suffered alteration in some form, by injected humour, or randomised words which
+          the majority have sufered alteration in some form, by injected humour, or randomised words which
           <br />
           dont look even slightly believable.
         </p>
