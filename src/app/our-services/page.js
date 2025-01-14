@@ -33,8 +33,8 @@ const OurServices = () => {
             <div className='flex justify-between items-center'>
               <p className='text-orange-600'>{item.price}</p>
               <Link href={`/our-services/${item.id}`}>
-                <button className='bg-green-500 rounded-md px-4'>
-                  <FaArrowRight className='mt-1 text-orange-600' />
+                <button className='bg-orange-500 rounded-md px-3 py-2'>
+                  <FaArrowRight className=' text-white' />
                 </button>
               </Link>
             </div>
