@@ -14,14 +14,14 @@ const Clock = () => {
             <div className='flex gap-4 mt-7'>
                 <Image src="/aseats/ghori.png" alt='clock' height={20} width={30} className='h-9 ml-4 mt-3 '/>
                 <div>
-                   <p>We are open monday-saterday</p> 
+                   <p>We are open tuesday-saterday</p> 
                    <h3  className='text-2xl font-bold'>6:00 am - :800 pm</h3>
                 </div>
             </div>
             <div className='flex gap-4 mt-7'>
                 <Image src="/aseats/ghori.png" alt='clock' height={20} width={30} className='h-9 ml-4 mt-3 '/>
                 <div>
-                   <p>We are open monday-monday</p> 
+                   <p>We are open thuesday-monday</p> 
                    <h3  className='text-2xl font-bold'>8:00 am - 9:00 pm</h3>
                 </div>
             </div>
