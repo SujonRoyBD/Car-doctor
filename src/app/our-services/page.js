@@ -21,7 +21,7 @@ const OurServices = () => {
         <p className='text-center'>
           The majority have suffered alteration how some form, by injected humour, or randomised
           <br />
-          words which don`&apos;`t look even slightly believable.
+          words which don`&apos;`t look Even slightly believable.
         </p>
       </div>
 
