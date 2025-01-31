@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
+
 const About = () => {
     return (
         <div className='pt-[70px] '>
@@ -19,7 +20,7 @@ const About = () => {
             <div className='w-full md:w-[670px] ml-0 mt-0 md:ml-[300px] md:-mt-[200px]'>
                 <Image src="/aseats/about-us2.png" alt='about' height={300} width={300} />
             </div>
-
+               
         </div>
     );
 };

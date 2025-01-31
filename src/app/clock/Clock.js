@@ -7,7 +7,7 @@ const Clock = () => {
             <div className='flex gap-4 mt-7'>
                 <Image src="/aseats/ghori.png" alt='clock' height={20} width={30} className='h-9 ml-4 mt-3 '/>
                 <div>
-                   <p>We are open monday-friday</p> 
+                   <p>We are open tuesday-friday</p> 
                    <h3  className='text-2xl font-bold'>7:00 am - 8:00 pm</h3>
                 </div>
             </div>

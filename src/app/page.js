@@ -8,11 +8,13 @@ import OurTeam from "./our-team/OurTeam";
 import Core from "./CoreFeatures/Core";
 import Testimonial from "./testomonial/Testimonial";
 
+
 export default function Home() {
   return (
     <div>
       <Banner />
       <About />
+     
       <OurServices />
       <Clock />
       <OurProduct />

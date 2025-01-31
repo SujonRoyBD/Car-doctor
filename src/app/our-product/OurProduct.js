@@ -80,7 +80,7 @@ const OurProduct = () => {
         <p className='text-center'>
           the majority have suffered alteration in some form, by injected humour, or randomised words which
           <br />
-          dont look even slightly believable.
+          dont look eves slightly believabls.
         </p>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-5'>
