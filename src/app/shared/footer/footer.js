@@ -12,7 +12,7 @@ const Footer = () => {
                 <div>
                     <Image src="/aseats/logo.png" alt='logo' height={40} width={40}/>
                     <h3>Car Doctor</h3>
-                    <p className='mt-4'>Edwin Diaz is a software and web technologies engineer, a life coach  trainer who is also a serial </p>
+                    <p className='mt-4'>Edwin Diaz is a software and web technologies engineer, life coach  trainer who is also a serial </p>
                     <div className='flex gap-4'>
                     < IoLogoGoogle className='bg-orange-600 rounded-full h-[40px] w-[40px] text-white'/>
                     < CiTwitter className='bg-orange-600 rounded-full h-[40px] w-[40px] text-white'/>
