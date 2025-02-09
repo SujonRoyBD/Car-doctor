@@ -11,7 +11,7 @@ const OurProduct = () => {
       img: "/aseats/our-product1.png",
       icon: "/icons/icon1.png",
       title: "Item One",
-      price: 25.99,
+      price: 22.99,
       borderColor: "border-red-500"
     },
     {
@@ -19,7 +19,7 @@ const OurProduct = () => {
       img: "/aseats/our-product2.png",
       icon: "/icons/icon2.png",
       title: "Item Two",
-      price: 35.99,
+      price: 36.99,
       borderColor: "border-blue-500"
     },
     {
