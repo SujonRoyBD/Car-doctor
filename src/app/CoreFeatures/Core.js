@@ -40,7 +40,7 @@ const Core = () => {
         <p className='text-orange-600 text-center mt-[40px]'>Core Features</p>
         <h2 className='text-3xl font-bold text-center'>Why Choose Us</h2>
         <p className='text-center'>
-        the majority have suffered alteration in some form, by injected humour, or randomised <br/> words which dont looks even slightly believable. 
+        the majority have suffered alteration in some form, by injected humour, or randomised <br/> words which dont look even slightly believable. 
         </p>
       </div>
       <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4'>
