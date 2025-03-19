@@ -12,7 +12,7 @@ const About = () => {
                 <div>
                     <p className='text-orange-600'>About Us</p>
                     <h2 className='font-bold text-4xl'>We are qualified <br /> & of experience <br /> in this field</h2>
-                    <p>There are many variations of passages of Lorem Ipsum <br /> available, but the majority have suffered alteration in some <br />form, by injected humour, or randomised words which dont <br />look even slightly believable. </p>
+                    <p>There are many variations of passage of Lorem Ipsum <br /> available, but the majority have suffered alteration in some <br />form, by injected humour, or randomised words which dont <br />look even slightly believable. </p>
                     <p className='py-[20px]'>the majority have sufere alteration in some <br /> form, by injected humour, or randomised words which <br /> dont look even slightly believable. </p>
                     <button className='bg-orange-600 px-2 py-1 text-white'>Get More Info</button>
                 </div>
