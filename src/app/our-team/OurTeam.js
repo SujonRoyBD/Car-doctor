@@ -42,7 +42,7 @@ const OurTeam = () => {
         <p className='text-center'>
           the majority have sufered alteration in some form, by injected humour, or randomised words which
           <br />
-          dont looks evens slightly believable.
+          dont look evens slightly believable.
         </p>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-5 gap-8 ml-9'>
