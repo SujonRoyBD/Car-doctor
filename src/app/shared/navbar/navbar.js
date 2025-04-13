@@ -26,11 +26,11 @@ const Navbar = () => {
             <li>
             <Link href="/our-services">Services</Link>
             </li>
-            <li>
+            <Link href="/our-services">
               Blogs
-            </li>
-            <li>
-              Contacts
+            </Link>
+            <li className="coursor-pointer">
+              <Link href="/">contacts</Link>
             </li>
           </ul>
         </div>
