@@ -4,6 +4,7 @@ import { IoLogoGoogle } from "react-icons/io5";
 import { CiTwitter } from "react-icons/ci";
 import { CiInstagram } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -21,8 +22,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <h2>About</h2>
                     <div className='mt-9'>
+                    
+                    <Link href="/"><h2>About</h2></Link>
                     <h2>Home</h2>
                     <h2>Services</h2>
                     <h2>Contact</h2>
