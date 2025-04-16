@@ -12,19 +12,17 @@ const OurServices = () => {
     { id: 5, img: "/aseats/our-service5.png", title: "Electrical System 5", price: "$60.00" },
     { id: 6, img: "/aseats/our-service6.png", title: "Electrical System 6", price: "$70.00" },
   ];
-
   return (
     <div className='px-4 md:px-[100px]'>
       <div>
         <p className='text-orange-600 text-center mt-[40px]'>Service</p>
         <h2 className='text-3xl font-bold text-center'>Our Service Area</h2>
         <p className='text-center'>
-          The majority have suffered alteration how some form, by injected humour, or randomised
+          The majority have  suffered alteration how some form, by injected humour, or randomised
           <br />
-          words which don`t look Even slightly believable.
+          words which don`t looks Even slightly believable.
         </p>
       </div>
-
       <div className='mt-12  gap-9 grid grid-cols-1 md:grid-cols-3'>
         {data.map((item) => (
           <div key={item.id} className='gap-9 py-[10px] px-1 md:px-[20px] border-2 rounded-md'>
@@ -41,7 +39,6 @@ const OurServices = () => {
           </div>
         ))}
       </div>
-
       <div className='flex justify-center items-center text-center'>
         <button className='bg-orange-600 py-1 px-2 text-white flex justify-center items-center text-center mt-4'>
           More Services
