@@ -26,7 +26,7 @@ const OurServices = () => {
       <div className='mt-12  gap-9 grid grid-cols-1 md:grid-cols-3'>
         {data.map((item) => (
           <div key={item.id} className='gap-9 py-[10px] px-1 md:px-[20px] border-2 rounded-md'>
-            <Image src={item.img} alt={item.title} height={208} width={314} />
+            <Image src={item.img} alt={item.title} height={209} width={314} />
             <p className='mt-3'>{item.title}</p>
             <div className='flex justify-between items-center'>
               <p className='text-orange-600'>{item.price}</p>
