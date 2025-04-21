@@ -20,7 +20,7 @@ const OurServices = () => {
         <p className='text-center'>
           The majority have  suffered alteration how some form, by injected humour, or randomised
           <br />
-          words which don`t looks Even slightly believable.
+          words which don`t looks Evens slightly believable.
         </p>
       </div>
       <div className='mt-12  gap-9 grid grid-cols-1 md:grid-cols-3'>
