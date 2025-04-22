@@ -6,27 +6,22 @@ import { useState } from 'react';
 export default function Slideimg() {
   const [width, setWidth] = useState(50);
 
-  // Handle Wheel for Scroll
-  const handleWheel = (e) => {
-    e.preventDefault();  // Prevent page scroll
-    const delta = e.deltaY > 0 ? 5 : -5; // Adjust scroll speed
-    setWidth((prevWidth) => {
-      const newWidth = prevWidth + delta;
-      // Ensure width stays between 0 and 100
-      return Math.min(Math.max(newWidth, 0), 100);
-    });
+  // Handle Mouse Move for resizing
+  const handleMouseMove = (e) => {
+    const container = e.currentTarget;
+    const rect = container.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const newWidth = (x / rect.width) * 100;
+    setWidth(newWidth);
   };
 
   return (
     <div
       className="relative w-full h-screen overflow-hidden cursor-ew-resize"
-      onWheel={handleWheel}  // Scroll event for adjusting width
+      onMouseMove={handleMouseMove}  // Only width is changed, height stays fixed
     >
       {/* Right Image */}
-      <div
-        className="absolute top-0 left-0 h-full z-0"
-        style={{ width: `${100 - width}%` }}  // Right image width changes based on left image width
-      >
+      <div className="absolute top-0 left-0 w-full h-full z-0">
         <Image
           src="/aseats/our-service3.png"
           alt="Right"
@@ -40,13 +35,13 @@ export default function Slideimg() {
       {/* Left Image */}
       <div
         className="absolute top-0 left-0 h-full z-0 transition-all duration-300 ease-in-out"
-        style={{ width: `${width}%` }}  // Left image width changes with scroll
+        style={{ width: `${width}%`, height: '100%' }}  // Ensure height stays fixed
       >
         <Image
           src="/aseats/our-service2.png"
           alt="Left"
           width={1920}
-          height={1070}
+          height={1080}
           className="object-cover w-full h-full"
           priority
         />
