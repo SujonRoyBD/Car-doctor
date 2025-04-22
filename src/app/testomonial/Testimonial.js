@@ -14,10 +14,10 @@ const Testimonial = () => {
         },
         {
             id:2,
-            img:"/aseats/awld1.png",
+            img:"/aseats/awld2.png",
             title:"Awlad Hossain",
             buesness:"Businessman",
-            imge:"/asseats/coma.png",
+            imge:"/aseats/coma.png",
             desc:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. "
         }
     ]

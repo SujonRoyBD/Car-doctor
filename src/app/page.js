@@ -7,6 +7,7 @@ import Clock from "./clock/Clock";
 import OurTeam from "./our-team/OurTeam";
 import Core from "./CoreFeatures/Core";
 import Testimonial from "./testomonial/Testimonial";
+import Slideimg from "./slideimg/page";
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <OurTeam />
       <Core />
       <Testimonial/>
+     <Slideimg/>
     </div>
 
   );
