@@ -46,7 +46,7 @@ export default function Slideimg() {
           src="/aseats/our-service2.png"
           alt="Left"
           width={1920}
-          height={1080}
+          height={1070}
           className="object-cover w-full h-full"
           priority
         />
