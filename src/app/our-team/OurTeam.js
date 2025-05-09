@@ -27,7 +27,7 @@ const OurTeam = () => {
       id: 3,
       img:  "/aseats/our-team3.png",
       icon: "/icons/icon3.png",
-      title: "Item TCar Engine Plug",
+      title: "Item Car Engine Plug",
       price:"Engine Expert",
       borderColor: "border-green-500"
     }
