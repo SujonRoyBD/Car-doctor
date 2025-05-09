@@ -7,11 +7,11 @@ const UnicCar = () => {
     const data = [
         {
             title: "Instant Car Services",
-            desc: "It uses a dictionary of over 200 Latin words, combined with a model sentence structures."
+            desc: "It uses a dictionary of over 200 Cords words, combined with a model sentence structures."
         },
         {
-            title: "Instant Car Services",
-            desc: "It uses a dictionary of over 200 Latin words, combined with a model sentence structures."
+            title: "Instant Car Service",
+            desc: "It uses a dictionary over 200 Latin words, combined with a model sentence structures."
         },
         {
             title: "Instant Car Services",

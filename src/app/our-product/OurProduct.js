@@ -59,7 +59,7 @@ const OurProduct = () => {
       img: "/aseats/our-product1.png",
       icon: "/icons/icon2.png",
       title: "Item Five",
-      price: 36.99,
+      price: 37.99,
       borderColor: "border-purple-500"
     },
     {
