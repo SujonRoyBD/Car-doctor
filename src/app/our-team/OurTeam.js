@@ -12,7 +12,7 @@ const OurTeam = () => {
       img: "/aseats/our-team2.png",
       icon: "/icons/icon1.png",
       title: "Item Car Engine Plug",
-      price: "Engine plug",
+      price: "Enginea plug",
       borderColor: "border-red-500"
     },
     {
